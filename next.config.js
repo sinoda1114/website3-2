@@ -5,6 +5,9 @@ const nextConfig = {
       unoptimized: true,
     },
     trailingSlash: true,
+    distDir: 'dist',
+    basePath: '',
+    reactStrictMode: true,
 }
   
   module.exports = nextConfig
