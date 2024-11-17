@@ -1,5 +1,9 @@
-import { CompanyWebsiteComponent } from "@/components/company-website"
+import { CompanyWebsiteComponent } from "../components/company-website"
 
-export default function Home() {
-  return <CompanyWebsiteComponent />
+export default function Page() {
+  return (
+    <main>
+      <CompanyWebsiteComponent />
+    </main>
+  )
 }
