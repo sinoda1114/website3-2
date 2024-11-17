@@ -1,16 +1,9 @@
 'use client'
 
-// UIコンポーネントのインポートを一時的にコメントアウト
-// import { Button } from "@/components/ui/button"
-// import { Input } from "@/components/ui/input"
-// import { Textarea } from "@/components/ui/textarea"
-// import { Card } from "@/components/ui/card"
-import { ChevronRight } from "lucide-react"
-
 export function CompanyWebsiteComponent() {
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <header className="fixed w-full bg-background/80 backdrop-blur-sm z-50 border-b">
+    <div className="min-h-screen bg-white text-black">
+      <header className="fixed w-full bg-white/80 backdrop-blur-sm z-50 border-b">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <h1 className="text-2xl font-bold">Waalsforce</h1>
           <nav>
@@ -23,8 +16,20 @@ export function CompanyWebsiteComponent() {
           </nav>
         </div>
       </header>
-      <main>
-        <h1>Welcome to Next.js</h1>
+
+      <main className="pt-20">
+        <section className="container mx-auto px-4 py-12">
+          <h2 className="text-4xl font-bold mb-6">AIで未来を創造する</h2>
+          <p className="text-xl mb-8">
+            最先端の生成AI技術とコンサルティングで、ビジネスの可能性を広げます
+          </p>
+          <a 
+            href="#contact" 
+            className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg"
+          >
+            お問い合わせ
+          </a>
+        </section>
       </main>
     </div>
   )
