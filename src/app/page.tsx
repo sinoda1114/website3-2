@@ -1,7 +1,7 @@
-import { CompanyWebsiteComponent } from "../components/company-website"
-// または
-import { CompanyWebsiteComponent } from "@/components/company-website"
-
-export default function Page() {
-  return <CompanyWebsiteComponent />
+export default function Home() {
+  return (
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <h1>Hello, Next.js!</h1>
+    </main>
+  )
 }

@@ -1,9 +1,9 @@
-import '@/styles/globals.css'
+import type { Metadata } from "next"
+import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Waalsforce - AIソリューション",
-  description: "最先端の生成AI技術とコンサルティングで、ビジネスの可能性を広げます",
-  keywords: ["AI", "コンサルティング", "生成AI", "ビジネスソリューション"],
+  title: "Waalsforce",
+  description: "AI Solutions",
 }
 
 export default function RootLayout({
