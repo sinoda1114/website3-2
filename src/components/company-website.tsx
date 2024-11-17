@@ -1,7 +1,5 @@
 'use client'
 
-import Image from 'next/image'
-
 export function CompanyWebsiteComponent() {
   return (
     <div className="min-h-screen bg-white">

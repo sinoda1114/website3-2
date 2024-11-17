@@ -1,6 +1,6 @@
 'use client'
 
-export default function Error({
+export default function ErrorPage({
   reset,
 }: {
   reset: () => void
