@@ -1,9 +1,9 @@
-name = "your-project-name"
+name = "website3-2"
 compatibility_date = "2024-01-01"
 
 [build]
 command = "npm run build"
-publish = ".next/static"
+output_dir = ".next"
 
 [site]
 bucket = ".next"
